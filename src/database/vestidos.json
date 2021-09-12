@@ -1,0 +1,31 @@
+[
+  {
+    "name":"Vestido v1",
+    "id":"vestido_v1",
+    "path":"/vestidos/",
+    "price":"45.000",
+    "image":"https://images.unsplash.com/photo-1494578379344-d6c710782a3d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+  },
+  {
+    "name":"Vestido v2",
+    "id":"vestido_v2",
+    "path":"/vestidos/",
+    "price":"45.000",
+    "image":"https://images.unsplash.com/photo-1494578379344-d6c710782a3d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+  },
+
+  {
+    "name":"Vestido v3",
+    "id":"vestido_v3",
+    "path":"/vestidos/",
+    "price":"45.000",
+    "image":"https://images.unsplash.com/photo-1494578379344-d6c710782a3d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+  },
+  {
+    "name":"Vestido v4",
+    "id":"vestido_v4",
+    "path":"/vestidos/",
+    "price":"45.000",
+    "image":"https://images.unsplash.com/photo-1494578379344-d6c710782a3d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+  }
+]

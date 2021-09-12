@@ -1,0 +1,19 @@
+[
+  {
+    "name":"Blusas",
+    "image":"https://images.unsplash.com/photo-1562571437-2f40b6baa3c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=891&q=80",
+    "index":1
+  },
+  {
+    "name":"Vestidos",
+    "image":"https://images.unsplash.com/photo-1494578379344-d6c710782a3d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+    "index":2
+
+  },
+
+  {
+    "name":"Pantalones",
+    "image":"https://images.unsplash.com/photo-1510390099355-23e690d8129d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80",
+    "index":3
+  }
+]

@@ -1,0 +1,143 @@
+@import 'global';
+.view__img{
+  width: 70%;
+  height: 60%;
+  display: block;
+  margin: 30px auto;
+  @media (min-width:600px) {
+    height: 90%;
+    width: 60%;
+    margin-left:3% ;  
+ }
+}
+.close__button--modal{
+  position: relative;
+  left: 90%;
+  font-size: 16px;
+  cursor: pointer;
+  @media (min-width:600px) {
+  font-size: 54px;
+  left: 95%;
+ }
+  
+}
+.add__button{
+  
+  display: block;
+  color: white;
+  background: black;
+  width: 40%;
+  margin: 10px auto;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+&:hover{
+  transform: scale(1.1,1.1);
+
+}
+
+}
+.container__pviews{
+  width:80vw ;
+  height: 95vh;
+  margin:  auto;
+  font-family: $fontMain;
+  font-size: 12px;
+  letter-spacing: 0.1rem;
+  background-color: white;
+  color: black;
+  padding-top: 20px;
+
+  &>h3{
+    color: black;
+    width: 70%;
+   margin: auto;
+   margin-bottom: 7px;
+  }
+  @media (min-width:600px) {
+    display: flex;
+    padding-top: 0;
+
+    
+ }
+
+}
+.container__detail--products{
+  width: 70%;
+  margin: auto;
+  display:flex;
+  flex-direction: column;
+  @media (min-width:600px) {
+    display: flex;
+    padding-top: 0;  
+    width: 100%;
+    margin: auto 4%;  
+ }
+
+}
+
+
+.amount__products{
+  width: 20px;
+  margin-left: 0;
+}
+.button__add{
+  cursor: pointer;
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  width: 25px;
+  height: 25px;
+}
+.price_products{
+  display: flex;
+  width: 100%;
+  // margin: auto;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.price_products div{
+  width: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.price_products div span{
+  margin: 0;
+  margin-right: 5px;
+  }
+.price_products input{
+  width: 40px;
+
+  display: inline-block;
+}
+
+.sizes__products{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+  & h3{
+    font-size: 14px;
+    margin-top: 5px;
+  }
+}
+.sizes__item{
+  width: 25px;
+  height: 25px;
+  display: block;
+  // margin: 10px;
+  align-self: center;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5px;
+  cursor: pointer;
+  margin-right: 0;
+
+}
+.container__sizes--item{
+  display: flex;
+}

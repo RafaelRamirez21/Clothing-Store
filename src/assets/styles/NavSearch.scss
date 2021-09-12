@@ -1,0 +1,27 @@
+.navSearch{
+  width: 80vw;
+  margin: 0 auto; 
+  height: 28px;
+}
+.Search{
+  width: 100%;
+  display: inline-block;
+  height: 28px;
+  margin: 0 auto;
+}
+.navSearch__button{
+   position: absolute;
+   left: 83%;
+   background: black;
+   color: white;
+   width: 40px; 
+   height: 28px ;
+   border: none;
+   cursor: pointer;
+   @media (min-width:500px) {
+     left:85%
+   }
+   @media (min-width:711px) {
+    left:88%
+  }
+}

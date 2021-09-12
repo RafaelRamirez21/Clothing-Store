@@ -1,0 +1,21 @@
+@import 'global';
+.container__about{
+  width: 80vw;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.about_section{
+  text-align: center;
+  font-weight: normal;
+  margin: 16px;
+  font-family: $fontMain;
+  letter-spacing: 0.5rem;
+  font-size: 24px;
+}
+.about_section~ p{
+  width: 100%;
+  font-size: 18px;
+  font-family: $fontMain;
+  letter-spacing: 0.2rem;
+}

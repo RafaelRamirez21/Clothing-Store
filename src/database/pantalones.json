@@ -1,0 +1,31 @@
+[
+  {
+    "name":"Pantalon v1",
+    "path":"/pantalones/",
+    "id":"pantalon_v1",
+    "price":"45.000",
+    "image":"https://images.unsplash.com/photo-1510390099355-23e690d8129d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+  },
+  {
+    "name":"Pantalon v2",
+    "id":"pantalon_v2",
+    "path":"/pantalones/",
+    "price":"45.000",
+    "image":"https://images.unsplash.com/photo-1510390099355-23e690d8129d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+  },
+
+  {
+    "name":"Pantalon v3",
+    "id":"pantalon_v3",
+    "path":"/pantalones/",
+    "price":"45.000",
+    "image":"https://images.unsplash.com/photo-1510390099355-23e690d8129d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+  },
+  {
+    "name":"Pantalon v4",
+    "id":"pantalon_v4",
+    "path":"/pantalones/",
+    "price":"45.000",
+    "image":"https://images.unsplash.com/photo-1510390099355-23e690d8129d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+  }
+]

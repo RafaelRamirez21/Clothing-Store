@@ -1,0 +1,81 @@
+@import 'global';
+.minicard{
+  width: 160px;
+  height: 230px;
+  font-family: $fontMain;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 18px;
+  box-shadow: 0px 0px 15px -5px;
+
+
+  @media (min-width:380px) {
+    width: 150px;
+    height: 230px;
+  }
+  @media (min-width:360px) {
+    width: 140px;
+    height: 230px;
+  }
+  @media (min-width:320px) {
+    width: 120px;
+    height: 230px;
+
+  }
+  @media (min-width:900px) {
+    width: 220px;
+    height: 330px;
+  }
+  
+ & h3 {
+  font-size: 12px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  opacity: 0.7;
+  
+} 
+& h4 {
+  font-size: 12px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  
+} 
+&:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+  transition: 0.3s ease-in;
+}
+}
+.product__img{
+  width: 140px;
+  height: 150px;
+  margin: 0px;
+display: block;
+align-self: center;
+@media (min-width:400px) {
+  // width: 200px;
+  // height: 300px;
+}
+@media (min-width:320px) {
+  width: 120px;
+  height: 230px;
+}
+@media (min-width:1000px) {
+  width: 220px;
+  height: 330px;
+}
+
+}
+.container__products{
+  display: flex;
+  width: 80vw;
+  margin:0  auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+
+}
