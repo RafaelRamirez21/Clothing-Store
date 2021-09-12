@@ -47,8 +47,8 @@ function Navbar({ cart }) {
             {SidebarData.map((item, index) => <ItemNavbar key={index} item={item} />)}
           </ul>
         </nav>
+        <Link to="/"> <h1 className="logo">KOCHANIE</h1></Link>
 
-        <h1 className="logo">KOCHANIE</h1>
         <Link className="shopping__cart--icon" to='/cart'>
           <FiShoppingCart size={'1.5em'} />
           <span className="counter__cart">{counterCart}</span>
