@@ -1,5 +1,6 @@
 # Clothing shop without backend
 This application used to buy women clothes with whatsApp API.
+deploy: https://priceless-newton-029089.netlify.app/
 
 ## Project Status
 At the moment don't have backend work. This is first version of this website and it's going to be updated.
