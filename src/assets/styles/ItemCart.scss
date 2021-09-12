@@ -71,7 +71,10 @@
   font-size: 1.2rem;
   font-weight: bold;
 }
-
+.waplink{
+  text-decoration: none;
+  color: black;
+}
 .summary__checkoutBtn {
   padding: 10px 17px;
   border: 1px solid var(--secondary-color);
@@ -81,6 +84,12 @@
   font-size: 1.2rem;
   font-weight: bold;
   cursor: pointer;
+  display: block;
+  margin: auto;
+  @media (min-width:900px) {
+    display: block;
+    margin: auto;
+  }
 }
 
 .summary__checkoutBtn:focus {

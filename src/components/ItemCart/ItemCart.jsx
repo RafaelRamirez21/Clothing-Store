@@ -43,8 +43,7 @@ function ItemCart({ cart }) {
             <span>$ {totalPrice}.000</span>
           </div>
 
-          <a href={`https://api.whatsapp.com/send?phone=${numeroparawp}&text=
-        Hola, gracias por comprar en Kochanie! El resumen de tu compra es:${product()} Cantidad de productos:${totalItem} Precio total:${totalPrice}`}>
+          <a className="waplink" href={`https://api.whatsapp.com/send?phone=${numeroparawp}&text=Hola, gracias por comprar en Kochanie! El resumen de tu compra es:\n ${product()}\n Cantidad de productos:${totalItem}\n Precio total:${totalPrice}`}>
             <button className="summary__checkoutBtn">
               Confirmar orden
             </button>
