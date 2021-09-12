@@ -1,10 +1,30 @@
-Pre-configured and Ready to use React Starter App. To save time in settings things up for new project.
-Directory Structure
+# Clothing shop without backend
+This application used to buy women clothes with whatsApp API.
 
-This document aims to describe the React Js directory structure for building our project.
-The top level directory structure will be as follows:
+## Project Status
+At the moment don't have backend work. This is first version of this website and it's going to be updated.
 
-components : Global components, such as layout (wrappers, navigation), form components, buttons.
-resources: Global static resources as images, fonts and styles to apply on components.
-routes: Main router that contains the pages.
+## Installation
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+
+Installation:
+
+```bash 
+npm install or npm i
+```   
+To Start Server:
+```bash 
+npm start
+``` 
+To Visit App
+(for default): This path could be modified with the use of webapck.
+```bash 
+localhost:3004
+``` 
+## Reflection
+This was a 2 week long project built during my process to become a fullstack developer. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.
+I started this process by using my webpack configuration where adding `react-router-` and `redux`and `react-icon`.  
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
