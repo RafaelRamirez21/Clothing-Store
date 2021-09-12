@@ -31,8 +31,14 @@
   height: 30px;
   border: none;
   cursor: pointer;
+  transform: scale(1,1);
+  transition:  transform 1s ease-in;
 &:hover{
   transform: scale(1.1,1.1);
+  transition:  transform 90ms ease-in;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
 
 }
 

@@ -21,7 +21,7 @@ function ProductScreen({ value, onToggle, addToCart }) {
         <div className="container__detail--products">
           <h3>{value.name}</h3>
           <div className="price_products">
-            <h3>${value.price}</h3>
+            <h3>${value.price}.000</h3>
             <div>
               <span className="amount__products">{added}</span>
               <IoMdAdd onClick={addProduct} size={'1.3em'} className="button__add" />
@@ -37,7 +37,7 @@ function ProductScreen({ value, onToggle, addToCart }) {
 
           </div>
           <button
-            onClick={() => addToCart(value.id, value.category)}
+            onClick={() => { addToCart(value.id, value.category); onToggle() }}
             className="add__button">Añadir</button>
         </div>
       </section>
